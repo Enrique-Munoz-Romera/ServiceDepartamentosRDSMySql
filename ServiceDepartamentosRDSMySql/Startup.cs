@@ -58,11 +58,8 @@ namespace ServiceDepartamentosRDSMySql
             {
                 app.UseDeveloperExceptionPage();
             }
-
             app.UseCors(options => options.AllowAnyOrigin());
-
             app.UseHttpsRedirection();
-
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
